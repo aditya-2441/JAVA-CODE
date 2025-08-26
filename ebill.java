@@ -87,7 +87,7 @@ class ElectricityBillGenerator
     System.out.print("Enter Consumer Number: ");
     int consumerNo = scanner.nextInt();
     System.out.print("Enter Consumer Name: ");
-    scanner.nextLine(); 
+    scanner.nextLine();
     String consumerName = scanner.nextLine();
     System.out.print("Enter Previous Month Reading: ");
     double previousReading = scanner.nextDouble();
