@@ -84,16 +84,16 @@ class ElectricityBillGenerator
   public static void main(String [] args) 
   {
     Scanner scanner = new Scanner(System.in);
-    System.out.println("Enter Consumer Number: ");
+    System.out.print("Enter Consumer Number: ");
     int consumerNo = scanner.nextInt();
-    System.out.println("Enter Consumer Name: ");
+    System.out.print("Enter Consumer Name: ");
     scanner.nextLine(); 
     String consumerName = scanner.nextLine();
-    System.out.println("Enter Previous Month Reading: ");
+    System.out.print("Enter Previous Month Reading: ");
     double previousReading = scanner.nextDouble();
-    System.out.println("Enter Current Month Reading: ");
+    System.out.print("Enter Current Month Reading: ");
     double currentReading = scanner.nextDouble();
-    System.out.println("Enter Connection Type (domestic/commercial): ");
+    System.out.print("Enter Connection Type (domestic/commercial): ");
     scanner.nextLine(); 
     String connectionType = scanner.nextLine();
 
