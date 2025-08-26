@@ -63,6 +63,9 @@ public class ebill
       {
         amount = 100 * 2 + 100 * 4.50 + 300 * 6 + (unitsConsumed - 500) * 7;
       }
+    }
+    else 
+    {
       System.out.println("Invalid connection type.");
       return 0;
     }
